@@ -1,0 +1,31 @@
+# agent artefacts
+**/CLAUDE.md
+
+# PowerShell build artifacts
+output/
+*.nupkg
+*.zip
+
+# Test results
+TestResults/
+*.trx
+coverage.xml
+*.coverage
+
+# IDE settings
+.vscode/
+.vs/
+*.suo
+*.user
+
+# OS junk
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Temp files
+*.tmp
+*.log
+.gitmessage
+temp/*
+!.gitkeep
